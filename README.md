@@ -8,14 +8,14 @@ watchEffect(() => {
   answer = count.value + 100;
 });
 
-answer; // 200
+answer; // should be 200
 
 count.value = 200;
 
-answer; // 300
+answer; // should be 300
 ```
 
 TODO
 
-- [x] Handling dependency in conditional case effect getter.
-- [x] `Computed` implementation.
+- [ ] Handling dependency in conditional case effect getter.
+- [ ] `Computed` implementation.
